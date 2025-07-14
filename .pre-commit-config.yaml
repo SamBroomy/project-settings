@@ -41,7 +41,7 @@ repos:
     hooks:
       - id: just-fmt
         name: just fmt
-        entry: just format
+        entry: just --unstable --f
         language: system
         files: ^justfile$
         pass_filenames: false
