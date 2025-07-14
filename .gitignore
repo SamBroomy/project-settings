@@ -4,6 +4,7 @@
 !.gitignore
 !justfile
 !README.md
+!LICENSE
 
 # --- Specific to this repo ---
 
