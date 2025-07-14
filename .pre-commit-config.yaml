@@ -41,8 +41,8 @@ repos:
     hooks:
       - id: just-fmt
         name: just fmt
-        entry: just --unstable --f
+        entry: just format
         language: system
-        files: ^justfile$
+        files: ^(justfile|\.justfile|.*\.just)$
         pass_filenames: false
         stages: [pre-commit]
