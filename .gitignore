@@ -15,6 +15,7 @@
 # --- Python ignores ---
 !.python-version
 !pyproject.toml
+!uv.lock
 !ruff.toml
 !py.typed
 
