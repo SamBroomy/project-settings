@@ -44,6 +44,7 @@ isort.split-on-trailing-comma = false
     "PLR6301", # no self used in class method
     "PT011",   # pytest raises to broad
     "S101",    # check assert used
+    "SLF001",  # Private member accessed outside class
 ]
 "**/test_*.py" = [
     "ANN401",  # Any-type annotation used
